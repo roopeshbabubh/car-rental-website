@@ -1,0 +1,15 @@
+/* Add this to your custom styles or stylesheet */
+@media (max-width: 576px) {
+    #offcanvasRight {
+        width: 40%; /* Adjust the width as needed */
+    }
+
+    .offcanvas-body {
+        font-size: 0.8rem; /* Adjust the font size as needed */
+        overflow: auto; /* Enable scrolling if content overflows */
+    }
+    
+    .offcanvas-body .nav-link {
+        font-size: 0.8rem; /* Adjust the font size as needed */
+    }
+}
